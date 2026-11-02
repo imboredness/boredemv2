@@ -1,0 +1,215 @@
+:root {
+  --uc-font-family: "Adwaita Mono";
+}
+
+:root,
+:root * {
+  font-family: var(--uc-font-family), monospace !important;
+}
+
+@layer tokens-foundation {
+  :root, :host(.anonymous-content-host) {
+    --border-radius-medium: 0px !important;
+    --border-radius-small: 0px !important;
+    --border-radius-large: 0px !important;
+  }
+}
+
+:root {
+  --tab-border-radius: 0px !important;
+  --toolbarbutton-border-radius: 0px !important;
+  --button-border-radius: 0px !important;
+  --arrowpanel-border-radius: 0px !important;
+  --arrowpanel-menuitem-border-radius: 0px !important;
+  --toolbar-field-border-radius: 0px !important;
+  --chrome-block-radius: 0px !important;
+  --chrome-window-gap: 0 !important;
+  --chrome-content-separator-color: transparent !important;
+
+  --border-radius-10: 0px !important;
+  --border-radius-12: 0px !important;
+  --border-radius-14: 0px !important;
+  --border-radius-16: 0px !important;
+  --border-radius-20: 0px !important;
+}
+
+* {
+  border-radius: 0px !important;
+  -moz-border-radius: 0px !important;
+}
+
+.tabbrowser-tab,
+.tabbrowser-tab .tab-background,
+.tabbrowser-tab[selected="true"] .tab-background,
+.tabbrowser-tab:not([selected="true"]) .tab-background,
+.tabbrowser-tab:hover .tab-background,
+.tabbrowser-tab[selected="true"]:hover .tab-background {
+  border-radius: 0px !important;
+  box-shadow: none !important;
+}
+
+.tab-background {
+  border-radius: 0px !important;
+  margin-block: 0px !important;
+  margin-inline: 0px !important;
+}
+
+.tab-background[selected="true"] {
+  border-radius: 0px !important;
+  -moz-appearance: none !important;
+}
+
+.tabbrowser-tab {
+  -moz-appearance: none !important;
+  border-radius: 0px !important;
+  padding: 0px !important;
+}
+
+.tabbrowser-tab .tab-close-button {
+  border-radius: 0px !important;
+}
+
+#urlbar,
+#urlbar-background,
+#urlbar-input,
+#urlbar-input-container {
+  border-radius: 0px !important;
+}
+
+#urlbar[focused="true"] > #urlbar-background {
+  border-radius: 0px !important;
+  box-shadow: none !important;
+}
+
+#urlbar[open] > #urlbar-background {
+  border-radius: 0px !important;
+}
+
+#searchbar,
+#searchbar > .searchbar-textbox,
+#search-container {
+  border-radius: 0px !important;
+}
+
+toolbarbutton,
+toolbarbutton:not([disabled]):not([cui-areatype="toolbar-menubar"]),
+#back-button,
+#forward-button,
+#stop-reload-button > toolbarbutton,
+#tracking-protection-icon-container,
+#page-action-buttons > toolbarbutton,
+.widget-overflow,
+toolbarbutton.usable-on-overflow,
+.unified-extensions-button,
+#PanelUI-button,
+#nav-bar-overflow-button {
+  border-radius: 0px !important;
+}
+
+toolbarbutton:hover,
+toolbarbutton:hover > .toolbarbutton-text,
+toolbarbutton:hover > .toolbarbutton-icon,
+toolbarbutton:hover > .toolbarbutton-badge-stack {
+  border-radius: 0px !important;
+}
+
+panel,
+panel[type="arrow"],
+.menupopup-arrow,
+.popup-notification-body,
+.panel-arrowcontent {
+  border-radius: 0px !important;
+}
+
+panel menuitem,
+panel menu,
+panel menucaption,
+toolbarseparator,
+.menuseparator {
+  border-radius: 0px !important;
+}
+
+.menupopup,
+.menu-menubar,
+panel[type="arrow"] {
+  border-radius: 0px !important;
+}
+
+button,
+button:hover,
+button:active,
+button:focus,
+button[disabled] {
+  border-radius: 0px !important;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="search"],
+input[type="password"],
+input[type="url"],
+textarea,
+select {
+  border-radius: 0px !important;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  border-radius: 0px !important;
+  appearance: none !important;
+  -moz-appearance: none !important;
+}
+
+input[type="checkbox"] {
+  border-radius: 0px !important;
+  width: 14px !important;
+  height: 14px !important;
+  border: 1px solid !important;
+}
+
+input[type="radio"] {
+  border-radius: 0px !important;
+}
+
+.popup-notification-body,
+.popup-notification-description,
+.popup-notification-icon,
+.popup-notification-button-container {
+  border-radius: 0px !important;
+}
+
+#commonDialog,
+#prefWindow,
+.tabmodal-dialog,
+.tabmodal-dialogbutton,
+dialog {
+  border-radius: 0px !important;
+}
+
+#navigator-toolbox,
+#toolbar-items,
+toolbar,
+toolbarseparator,
+#TabsToolbar,
+#nav-bar,
+#PersonalToolbar,
+#titlebar,
+#TabsToolbar-customization-target {
+  border-radius: 0px !important;
+  border: none !important;
+}
+
+.browserContainer {
+  border: 0px !important;
+}
+
+.chrome-block {
+  border: 0px !important;
+}
+
+::-moz-scrollbar,
+::-moz-scrollbar-track,
+::-moz-scrollbar-thumb,
+::-moz-scrollbar-button {
+  border-radius: 0px !important;
+}
